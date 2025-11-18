@@ -1,0 +1,253 @@
+//* Base */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  color: #2E2E2E;
+  background-color: #EFEFE6; /* blanc cassé, un peu plus foncé */
+  line-height: 1.65;
+}
+
+/* Header & nav */
+header.site-header {
+  background-color: #A8D5BA; /* vert pastel */
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2E2E2E;
+  text-decoration: none;
+}
+
+nav.site-nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav.site-nav a {
+  color: #2E2E2E;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.25s ease;
+}
+
+nav.site-nav a:hover {
+  background-color: #CBE896; /* vert tournesol */
+}
+
+/* Titles spacing */
+h1, h2, h3 {
+  margin: 0 0 12px;
+}
+section {
+  padding: 56px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Page title / hero wrapper */
+section.page-title,
+section.hero {
+  background-color: #F5E6CC; /* beige clair */
+  border-radius: 14px;
+  padding: 36px 28px;
+}
+
+/* Hero layout */
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-media img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin: 0 auto;
+  display: block;
+}
+
+/* Features cards */
+.features .cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.features .card {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Wide visual image */
+figure.wide img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Product cards */
+.product {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.07);
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.product.alt {
+  flex-direction: row-reverse;
+}
+
+.product-media img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.product-content {
+  flex: 1;
+}
+
+.product-content h2 {
+  color: #2E2E2E;
+}
+
+.product-content h3 {
+  color: #4B7B5F; /* vert doux */
+}
+
+.product-content ul {
+  padding-left: 18px;
+  margin: 12px 0 0;
+}
+
+/* Contact page */
+.contact {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.contact-media img {
+  max-width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-list, .social-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 24px;
+}
+
+.contact-list li, .social-list li {
+  margin-bottom: 8px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.contact-form button {
+  align-self: flex-start;
+}
+
+/* Buttons */
+.btn, button {
+  background-color: #CFE9CF; /* vert clair pastel */
+  color: #2E2E2E;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.1s ease;
+}
+
+.btn:hover, button:hover {
+  background-color: #CBE896; /* vert tournesol */
+}
+
+.btn:active, button:active {
+  transform: translateY(1px);
+}
+
+/* Footer */
+footer.site-footer {
+  background-color: #A8D5BA; /* vert pastel */
+  color: #2E2E2E;
+  text-align: center;
+  padding: 18px;
+  font-size: 0.95rem;
+  margin-top: 28px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-media img {
+    max-width: 360px;
+  }
+  .features .cards {
+    flex-direction: column;
+  }
+  .product, .product.alt {
+    flex-direction: column;
+    text-align: left;
+  }
+  .product-media img {
+    max-width: 280px;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-media img {
+    max-width: 260px;
+  }
+}
+
