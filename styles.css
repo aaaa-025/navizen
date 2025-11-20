@@ -3,13 +3,13 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   color: #2E2E2E;
-  background-color: #EFEFE6; /* blanc cassé, un peu plus foncé */
+  background-color: #E4D5B4; /* blanc cassé */
   line-height: 1.65;
 }
 
 /* Header & nav */
 header.site-header {
-  background-color: #A8D5BA; /* vert pastel */
+  background-color: #70C247; /* vert pastel */
   padding: 16px 20px;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ nav.site-nav a {
 }
 
 nav.site-nav a:hover {
-  background-color: #CBE896; /* vert tournesol */
+  background-color: #4CBB17; /* vert tournesol */
 }
 
 /* Titles spacing */
@@ -54,7 +54,7 @@ section {
 /* Page title / hero wrapper */
 section.page-title,
 section.hero {
-  background-color: #F5E6CC; /* beige clair */
+  background-color: #FAEDCD; /* beige clair */
   border-radius: 14px;
   padding: 36px 28px;
 }
@@ -250,4 +250,5 @@ footer.site-footer {
     max-width: 260px;
   }
 }
+
 
