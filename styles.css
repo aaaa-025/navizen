@@ -38,7 +38,7 @@ nav.site-nav a {
 }
 
 nav.site-nav a:hover {
-  background-color: #A7ED41; /* vert tournesol */
+  background-color: #D8FFB1; /* vert tournesol */
 }
 
 /* Titles spacing */
@@ -250,6 +250,7 @@ footer.site-footer {
     max-width: 260px;
   }
 }
+
 
 
 
