@@ -9,7 +9,7 @@ body {
 
 /* Header & nav */
 header.site-header {
-  background-color: #70C247; /* vert pastel */
+  background-color: #77DD77; /* vert pastel */
   padding: 16px 20px;
   display: flex;
   justify-content: space-between;
@@ -54,7 +54,7 @@ section {
 /* Page title / hero wrapper */
 section.page-title,
 section.hero {
-  background-color: #FAEDCD; /* beige clair */
+  background-color: #F5F5DC; /* beige clair */
   border-radius: 14px;
   padding: 36px 28px;
 }
@@ -250,5 +250,6 @@ footer.site-footer {
     max-width: 260px;
   }
 }
+
 
 
