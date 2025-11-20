@@ -2,7 +2,7 @@
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  color: #2E2E2E;
+  color: #F5F5DC;
   background-color: #E4D5B4; /* blanc cassé */
   line-height: 1.65;
 }
@@ -250,6 +250,7 @@ footer.site-footer {
     max-width: 260px;
   }
 }
+
 
 
 
