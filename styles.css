@@ -9,7 +9,7 @@ body {
 
 /* Header & nav */
 header.site-header {
-  background-color: #77DD77; /* vert pastel */
+  background-color: #90E290; /* vert pastel */
   padding: 16px 20px;
   display: flex;
   justify-content: space-between;
@@ -250,6 +250,7 @@ footer.site-footer {
     max-width: 260px;
   }
 }
+
 
 
 
