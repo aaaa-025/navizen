@@ -3,7 +3,7 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   color: #F5F5DC;
-  background-color: #E4D5B4; /* blanc cassé */
+  background-color: #E9E4D9; /* blanc cassé */
   line-height: 1.65;
 }
 
@@ -54,7 +54,7 @@ section {
 /* Page title / hero wrapper */
 section.page-title,
 section.hero {
-  background-color: #F5F5DC; /* beige clair */
+  background-color: #E9E4D9; /* beige clair */
   border-radius: 14px;
   padding: 36px 28px;
 }
@@ -195,7 +195,7 @@ figure.wide img {
 
 /* Buttons */
 .btn, button {
-  background-color: #CFE9CF; /* vert clair pastel */
+  background-color: #90E290; /* vert clair pastel */
   color: #2E2E2E;
   border: none;
   padding: 12px 20px;
@@ -216,7 +216,7 @@ figure.wide img {
 
 /* Footer */
 footer.site-footer {
-  background-color: #A8D5BA; /* vert pastel */
+  background-color: #90E290; /* vert pastel */
   color: #2E2E2E;
   text-align: center;
   padding: 18px;
@@ -250,6 +250,7 @@ footer.site-footer {
     max-width: 260px;
   }
 }
+
 
 
 
